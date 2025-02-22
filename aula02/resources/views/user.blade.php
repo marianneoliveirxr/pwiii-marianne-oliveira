@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>aula02</title>
 </head>
 <body>
-    <h1> BEM VINDO USUÁRIO 001 </h1> 
+    <header>
+        <h2>Bem-vindo(a) ao Malams Saloon</h2>
+    </header>
+    
+
 </body>
 </html>
