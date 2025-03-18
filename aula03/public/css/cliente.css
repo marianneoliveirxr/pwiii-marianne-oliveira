@@ -11,10 +11,11 @@ body {
 /* Container do formulário */
 .form-container {
     background-color: #f4c6d3; /* Cor de fundo do formulário */
-    padding: 20px;
+    padding: 45px;
     border-radius: 10px;
     width: 300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 70px;
 }
 
 .form-container h1 {
@@ -32,7 +33,7 @@ body {
 }
 
 .form-container button {
-    width: 100%;
+    width: 107%;
     padding: 10px;
     background-color: #d46a85; /* Cor do botão */
     color: white;
@@ -47,10 +48,12 @@ body {
 }
 
 /* Estilo da tabela */
-table {
+table{
+    display: inline-block;
     width: 100%;
     margin-top: 30px;
     border-collapse: collapse;
+    
 }
 
 table, th, td {
@@ -60,7 +63,7 @@ table, th, td {
 th, td {
     padding: 12px;
     text-align: left;
-    color: #d46a85;
+    color: #b32e4f;
 }
 
 th {
@@ -74,3 +77,6 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f0a3c1; /* Cor ao passar o mouse na linha da tabela */
 }
+ h2{
+     color: #b32e4f;
+ }

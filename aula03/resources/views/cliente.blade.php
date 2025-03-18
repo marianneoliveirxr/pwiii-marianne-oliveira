@@ -21,7 +21,8 @@
         </form>
     </div>
 </br>
-    <div class="table-container">
+
+  <div class="table-container">
         <h2>Clientes Cadastrados</h2>
         <table>
             <thead>
@@ -34,14 +35,13 @@
             <tbody>
                 @foreach ($cliente as $c)
                     <tr>
-                        <td>{{ $cliente->id }}</td>
-                        <td>{{ $cliente->txnomeCliente}}</td>
-                        <td>{{ $cliente->txSobrenome}}</td>
+                        <td>{{ $c->id}}</td>
+                        <td>{{ $c->primeiroNome}}</td>
+                        <td>{{ $c->sobrenome}}</td>
                     </tr>
-                @endforeach
-            </tbody>
+                @endforeach 
+                </tbody>
         </table>
     </div>
-
 </body>
 </html>
