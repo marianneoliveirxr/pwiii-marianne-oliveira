@@ -1,5 +1,6 @@
 # PW3
 #Não esquecer!!
+- COMANDOS DE PHP SOMENTE ATÉ AULA03
 - Executar todos os comandos antes de executar
 - Primeiro fazer o migrate
 -Só usar no workbench:
